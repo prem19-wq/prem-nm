@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+}
+
+/* Navbar */
+header {
+  background: #111;
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-size: 20px;
+}
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #f39c12;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #111;
+  border-bottom: 2px solid blue;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* About */
+#about p {
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+/* Projects */
+.projects {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.project {
+  flex: 1;
+  min-width: 250px;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: 0.3s;
+}
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.skill {
+  background: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* Contact */
+form {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input, textarea, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #d35400;
+}
+#formMessage {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+  margin-top: 30px;
+}
